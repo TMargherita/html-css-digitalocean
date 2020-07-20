@@ -1,13 +1,23 @@
 /*mix*/
 .bg_white {
-  color:#fff;
+  background-color:pink;
 }
 
+.bg_blue {
+  background-color: blue;
+}
 
+.bg_grey {
+  background-color: #f3f5f9;
+}
 
 /*typo*/
-
-
+ h1 {
+   color: #fff;
+ }
+ h6 {
+   color: #f3f5f9;
+ }
 
 
 
@@ -26,7 +36,7 @@
 }
 
 .top_logo {
-  background-color: blue;
+  background-color: red;
   height: 100px;
 }
 
@@ -39,5 +49,57 @@
 .top_menu_dx {
   background-color: yellow;
   height: 100px;
-  padding: 0 0;
+}
+
+/*jumbotron*/
+.form_white {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 300px;
+  margin: auto;
+  padding: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.titolo_jumbo {
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 70px;
+  font-size: 58px;
+}
+
+.testo_jumbo {
+  margin: auto;
+  color: #fff;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/*loghi*/
+
+.loghi {
+  height: 200px;
+}
+
+.testo_loghi {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.box-logo {
+  height: 30px;
+  background-color: green;
+  margin: 25px 0;
+}
+
+.box-logo img {
+  width: 100%;
+}
+
+.link-logo {
+  color: blue;
+  text-align: center;
+  margin-top: 25px;
 }
