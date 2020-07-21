@@ -14,6 +14,21 @@
   margin:auto;
   max-width: 1170px;
 }
+
+.freccia_dx {
+  font-size: 40px;
+  color: #031b4e;
+}
+
+.freccia_sx {
+  font-size: 40px;
+  color: #5b6987;
+}
+
+.freccia_dx, .freccia_sx i {
+  display: inline-block;
+  vertical-align:middle;
+}
 /*typo*/
 h1 {
 
@@ -42,6 +57,7 @@ p {
 
 .medium-p {
   font-size: 20px;
+  color: #5b6987;
 }
 .large-p {
   font-size: 24px;
