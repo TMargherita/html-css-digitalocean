@@ -25,10 +25,6 @@
   color: #5b6987;
 }
 
-.freccia_dx, .freccia_sx i {
-  display: inline-block;
-  vertical-align:middle;
-}
 /*typo*/
 h1 {
 
@@ -167,9 +163,15 @@ p {
 }
 
 /*galleria*/
-.immagine_carrousel {
-  width: 700px;
-  height: 500px;
+
+.galleria_img {
+  width: 90%;
+  height: 300px;
   margin:auto;
   background-color: orange;
+}
+
+.immagine_carrousel i {
+  display: inline-block;
+  vertical-align: middle;
 }
