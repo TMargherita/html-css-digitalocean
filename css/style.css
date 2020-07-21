@@ -10,9 +10,13 @@
 .bg_grey {
   background-color: #f3f5f9;
 }
-
+.wrapper-small {
+  margin:auto;
+  max-width: 1170px;
+}
 /*typo*/
 h1 {
+
   color: #fff;
   font-size: 58px;
  }
@@ -43,6 +47,7 @@ p {
   font-size: 24px;
 }
 .link-color {
+  background-color: inherit;
   color: #0069ff;
 }
 
@@ -89,19 +94,16 @@ p {
   height: 300px;
   margin: auto;
   padding: 50px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin: 70px 0;
 }
 
 .titolo_jumbo {
-  margin: auto;
   color: #fff;
   font-weight: bold;
   margin-top: 70px;
 }
 
 .testo_jumbo {
-  margin: auto;
   color: #fff;
   margin: 20px 0;
 }
@@ -136,14 +138,22 @@ p {
 /*caselle testo*/
 .caselle-testo {
   height: 500px;
-
 }
 
 .lista-centrale {
   list-style: none;
   border-left: 1px solid grey;
+  margin-bottom: 15px;
 }
 
 .lista-centrale li {
-  padding: 15px 20px;
+  padding: 15px 0;
+}
+
+/*galleria*/
+.immagine_carrousel {
+  width: 700px;
+  height: 500px;
+  margin:auto;
+  background-color: orange;
 }
