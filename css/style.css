@@ -1,4 +1,8 @@
-/*mix*/
+body {
+  font-family: 'Roboto', sans-serif;
+  }
+
+  /*mix*/
 .bg_white {
   background-color:pink;
 }
@@ -25,6 +29,11 @@
   color: #5b6987;
 }
 
+.freccia_dx,.freccia_dx {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 /*typo*/
 h1 {
 
@@ -40,6 +49,8 @@ h2 {
 
 h5 {
   font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
 }
 
 h6 {
@@ -164,14 +175,9 @@ p {
 
 /*galleria*/
 
-.galleria_img {
-  width: 90%;
-  height: 300px;
+.box-immagine {
+  width: 50%;
+  height:300px;
   margin:auto;
   background-color: orange;
-}
-
-.immagine_carrousel i {
-  display: inline-block;
-  vertical-align: middle;
 }
