@@ -4,7 +4,7 @@ body {
 
   /*mix*/
 .bg_white {
-  background-color:pink;
+  background-color:#fff;
 }
 
 .bg_blue {
@@ -34,57 +34,66 @@ body {
   display: inline-block;
 }
 
-/*typo*/
-h1 {
+.btn_galleria {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #0069ff;
+  border-radius: 10px;
+  text-align: center;
+}
 
+/*typo*/
+.titolo_big{
   color: #fff;
   font-size: 58px;
  }
 
-h2 {
+.titolo_sezione {
   font-size: 36px;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-h5 {
+.titolo_paragrafi {
   font-size: 18px;
   font-weight: 500;
   padding-top: 20px;
 }
 
-h6 {
+.titolo_small {
   font-size: 14px;
 }
 
-p {
+.small_p {
   font-size: 16px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
+  padding-top: 15px;
 }
 
-.medium-p {
+.medium_p {
   font-size: 20px;
   color: #5b6987;
+  padding-bottom: 20px;
 }
-.large-p {
+.large_p {
   font-size: 24px;
 }
-.link-color {
-  background-color: inherit;
+.link_logo {
   color: #0069ff;
 }
 
-.dark-grey {
+.colore_grey {
   color: #5b6987;
 }
 
-.dark-blue {
-  color: #031b4e;
+.colore_dark {
+  color: hsl(221,93%,16%);
 }
 
 /*HEADER*/
 /*header-top*/
-.header-top {
+.header_top {
   position: fixed;
   top: 0;
   left: 0;
@@ -121,8 +130,6 @@ p {
 }
 
 .titolo_jumbo {
-  color: #fff;
-  font-weight: bold;
   margin-top: 70px;
 }
 
@@ -142,13 +149,13 @@ p {
   margin: 40px 0;
 }
 
-.box-logo {
+.box_logo {
   height: 30px;
   background-color: green;
   margin: 25px 0;
 }
 
-.box-logo img {
+.box_logo img {
   width: 100%;
 }
 
@@ -159,25 +166,45 @@ p {
 }
 
 /*caselle testo*/
-.caselle-testo {
+.caselle_testo {
   height: 500px;
+  padding: 50px 0;
 }
 
-.lista-centrale {
+.lista_centrale {
   list-style: none;
   border-left: 1px solid grey;
-  margin-bottom: 15px;
+  margin: 25px 0;
 }
 
-.lista-centrale li {
+.lista_centrale li {
   padding: 15px 0;
 }
 
 /*galleria*/
 
-.box-immagine {
-  width: 50%;
+.box_immagine {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 90%;
   height:300px;
   margin:auto;
   background-color: orange;
+}
+
+.lista_galleria {
+  padding-bottom: 30px;
+}
+.lista_galleria li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+.lista_galleria li:first-child {
+  color: #0069ff;
+}
+ /*caselle testi centrale*/
+.testo_centrale {
+  height: 700px;
 }
