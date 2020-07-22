@@ -298,12 +298,10 @@ body {
   padding-bottom: 50px;
   margin: auto;
 }
-
 .gradiente_blu {
   background-color: white;
   background-image: linear-gradient(blue, darkblue);
 }
-
 .gradiente_titolo {
   color: #fff;
 }
@@ -318,19 +316,46 @@ body {
   text-align: center;
   font-weight: 400;
 }
-
 .location {
   font-size: 14px;
   color: #fff;
   text-align: left;
 }
-
 .test {
   text-align: right;
   font-size: 12px;
   padding-left: 20px;
 }
-
 .ultima {
   border-bottom: none;
+}
+
+/*quote*/
+#quote {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.box_quote {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  margin: 0px 10% 0px 10%;
+  padding-top: 80px;
+}
+
+.box-quote img {
+  width: 50%;
+}
+
+.quote_testo {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 50px;
+}
+
+.quote_mini {
+  font-weight: 400;
 }
