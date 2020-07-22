@@ -6,7 +6,6 @@ body {
 .bg_white {
   background-color:#fff;
 }
-
 .bg_grey {
   background-color: #f3f5f9;
 }
@@ -81,16 +80,15 @@ body {
 .large_p {
   font-size: 24px;
 }
+
 .colore_link {
   color: #0069ff;
 }
-
 .colore_grey {
   color: #5b6987;
 }
-
 .colore_dark {
-  color: #061B4E;
+  color: #031B4E;
 }
 
 /*HEADER*/
@@ -104,7 +102,6 @@ body {
   background-color: : #fff;
   height: 80px;
   line-height: 80px;
-  color: hsl(221,93%,16%);
 }
 
 .top_logo {
@@ -145,7 +142,6 @@ body {
   padding-top: 180px;
   padding-bottom: 100px;
   background-image: url("../img/sfondo.svg");
-  background-color: #0069ff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -216,35 +212,37 @@ body {
 }
 /*loghi*/
 
-.loghi {
-  height: 200px;
+#loghi {
+  background-color: #f3f5f9;
+  margin: auto;
 }
 
 .testo_loghi {
-  text-align: center;
+  font-weight: 700;
   margin: 40px 0;
 }
 
 .box_logo {
-  height: 30px;
-  background-color: green;
   margin: 25px 0;
+  margin: auto;
 }
 
 .box_logo img {
-  width: 100%;
+  max-height: 80px;
 }
 
-.link-logo {
-  color: blue;
-  text-align: center;
-  margin-top: 25px;
+.link_logo {
+  padding-top: 25px;
+  font-weight: 500;
 }
 
 /*caselle testo*/
-.caselle_testo {
-  height: 500px;
+.caselle {
   padding: 50px 0;
+}
+
+.caselle_testo {
+  padding: 20px 50px 50px 30px;
 }
 
 .lista_centrale {
