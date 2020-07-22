@@ -7,10 +7,6 @@ body {
   background-color:#fff;
 }
 
-.bg_blue {
-  background-color: blue;
-}
-
 .bg_grey {
   background-color: #f3f5f9;
 }
@@ -85,7 +81,7 @@ body {
 .large_p {
   font-size: 24px;
 }
-.link_logo {
+.colore_link {
   color: #0069ff;
 }
 
@@ -94,7 +90,7 @@ body {
 }
 
 .colore_dark {
-  color: hsl(221,93%,16%);
+  color: #061B4E;
 }
 
 /*HEADER*/
@@ -111,8 +107,10 @@ body {
   color: hsl(221,93%,16%);
 }
 
-.top_logo img {
-  padding-top: 25px;
+.top_logo {
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .top_menu {
@@ -139,30 +137,83 @@ body {
   padding-right: 15px;
   font-weight: 500;
 }
-
+.top_menu_dx li:last-child {
+  text-decoration: none;
+}
 /*jumbotron*/
 .jumbo {
-  padding-top: 200px;
+  padding-top: 180px;
   padding-bottom: 100px;
-}
-.form_white {
-  background-color: #fff;
-  border-radius: 5px;
-  height: 300px;
-  margin: auto;
-  padding: 50px;
-  margin: 70px 0;
+  background-image: url("../img/sfondo.svg");
+  background-color: #0069ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
 
 .titolo_jumbo {
   margin-top: 70px;
+  padding-right: 30px;
 }
 
 .testo_jumbo {
   color: #fff;
   margin: 20px 0;
+  padding-right: 50px;
 }
 
+.titolo_form {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.box_form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: auto;
+  padding: 25px;
+  margin: 70px 0;
+}
+
+.testo_form {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e5e8ed;
+  }
+
+.btn_blue {
+  background-color: #0069ff;
+  color: #fff;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn_google {
+  border: 1px solid #0069ff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0069ff;
+  text-align: center;
+}
+
+.fa-google {
+  text-align: left;
+}
+
+.sottotitolo {
+  font-size: 12px;
+}
 /*loghi*/
 
 .loghi {
