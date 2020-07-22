@@ -24,7 +24,7 @@ body {
 }
 
 .freccia_dx,.freccia_sx {
-  font-size: 40px;
+  font-size: 30px;
   vertical-align: middle;
   display: inline-block;
 }
@@ -51,6 +51,7 @@ body {
 .titolo_sezione {
   font-size: 36px;
   padding: 20px 0;
+  font-weight: bold;
 }
 
 .titolo_paragrafi {
@@ -79,6 +80,7 @@ body {
 
 .colore_link {
   color: #0069ff;
+  font-weight: 500;
 }
 .colore_grey {
   color: #5b6987;
@@ -266,7 +268,7 @@ body {
 .box_immagine {
   display: inline-block;
   vertical-align: middle;
-  width: 60%;
+  width: 70%;
   margin: 0px 10% 0px 10%;
 }
 .testo_galleria {
@@ -284,6 +286,51 @@ body {
 }
 
  /*caselle testi centrale*/
-.testo_centrale {
-  height: 700px;
+#testo_centrale {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+/*sezione tabella*/
+#tabella {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.gradiente_blu {
+  background-color: white;
+  background-image: linear-gradient(blue, darkblue);
+}
+
+.gradiente_titolo {
+  color: #fff;
+}
+.gradiente_riga {
+  border-bottom: 1px solid #fff;
+  margin: 5px 0px 5px 0px;
+  padding-top: 2px;
+}
+.server {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.location {
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+}
+
+.test {
+  text-align: right;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.ultima {
+  border-bottom: none;
 }
