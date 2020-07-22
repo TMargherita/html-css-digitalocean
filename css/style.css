@@ -42,6 +42,16 @@ body {
   border-radius: 3px;
   padding: 5px 10px;
 }
+.btn_bottom {
+  background-color: #fff;
+  color: #0069ff;
+  font-size:16px;
+  border-radius: 3px;
+  padding: 15px 10px;
+  text-align: center;
+  font-weight: 500;
+  max-width: 20%;
+}
 /*typo*/
 .titolo_big{
   color: #fff;
@@ -340,7 +350,7 @@ body {
 .box_quote {
   display: inline-block;
   vertical-align: middle;
-  width: 70%;
+  width: 65%;
   margin: 0px 10% 0px 10%;
   padding-top: 80px;
 }
@@ -358,4 +368,9 @@ body {
 
 .quote_mini {
   font-weight: 400;
+}
+
+#fine {
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
