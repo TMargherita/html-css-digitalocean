@@ -33,7 +33,9 @@ body {
   vertical-align: middle;
   display: inline-block;
 }
+.btn_top {
 
+}
 .btn_galleria {
   display: inline-block;
   width: 10px;
@@ -42,7 +44,11 @@ body {
   border-radius: 10px;
   text-align: center;
 }
-
+.btn_white {
+  border: 2px solid #0069ff;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
 /*typo*/
 .titolo_big{
   color: #fff;
@@ -95,31 +101,50 @@ body {
 /*header-top*/
 .header_top {
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100px;
-  line-height: 100px;
+  z-index: 1;
+  background-color: : #fff;
+  height: 80px;
+  line-height: 80px;
   color: hsl(221,93%,16%);
 }
 
-.top_logo {
-  background-color: red;
-  height: 100px;
+.top_logo img {
+  padding-top: 25px;
 }
 
 .top_menu {
-  background: orange;
-  height: 100px;
-  padding: 0 0;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.top_menu li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 15px ;
+  font-weight: 500;
 }
 
 .top_menu_dx {
-  background-color: yellow;
-  height: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: right;
+}
+
+.top_menu_dx li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 15px;
+  font-weight: 500;
 }
 
 /*jumbotron*/
+.jumbo {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
 .form_white {
   background-color: #fff;
   border-radius: 5px;

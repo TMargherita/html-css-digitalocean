@@ -2,43 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digital Ocean</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
       <!--header-top-->
-      <div class="header-top bg_white">
+      <div class="header_top bg_white">
         <div class="container">
           <div class="row">
       <!--logo-->
-            <div class="col-lg-3 col-md-12">
-              <div class="top_logo"></div>
+            <div class="col-lg-2 col-md-12">
+              <div class="top_logo">
+                <img class="img-responsive center-block" src="img/logo.png" alt="">
+              </div>
             </div>
       <!--/logo-->
       <!--menu-top-->
-            <div class="col-lg-5 col-md-12">
-              <div class="top_menu"></div>
-              <nav class="visible-lg"></nav>
+            <div class="col-lg-6 col-md-12">
+              <div class="top_menu">
+                <nav class="visible-lg">
+                  <ul class="top_menu titolo_small">
+                    <li>Products<i class="fas fa-chevron-down"></i></li>
+                    <li>Customers</li>
+                    <li>Community<i class="fas fa-chevron-down"></i></li>
+                    <li>Pricing</li>
+                  </ul>
+                </nav>
+              </div>
             </div>
       <!--/menu-top-->
       <!--menu-dx-->
             <div class="col-lg-4 col-md-12 ">
-              <div class="top_menu_dx"></div>
-                <nav class="visible-lg"></nav>
-            </div>
+              <div class="top_menu_dx">
+                <nav class="visible-lg">
+                  <ul class="top_menu_dx titolo_small">
+                    <li>Docs</li>
+                    <li>Support<i class="fas fa-chevron-down"></i></li>
+                    <li>Login<i class="fas fa-chevron-down"></i></li>
+                    <li><a class="btn_white">Sign Up</a>
+                  </ul>
+                  <!--hamburger-->
+                  <div class="visible-md visible-sm">
+                    <button type="button" class="btn btn-default btn_top" aria-label="Justify"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
+                  </div>
+                  <!--/hamburger-->
+                </nav>
       <!--/menu-dx-->
-      <!--hamburger-->
-            <div class="visible-md visible-sm">
-              <button type="button" class="btn btn-lg" aria-label="Right Align">
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-              </button>
+              </div>
             </div>
-      <!--/hamburger-->
           </div>
         </div>
       </div>
