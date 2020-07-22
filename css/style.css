@@ -52,14 +52,13 @@ body {
 
 .titolo_sezione {
   font-size: 36px;
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .titolo_paragrafi {
   font-size: 18px;
   font-weight: 500;
-  padding-top: 20px;
+  margin: 25px 0px 10px;
 }
 
 .titolo_small {
@@ -68,8 +67,7 @@ body {
 
 .small_p {
   font-size: 16px;
-  padding-bottom: 30px;
-  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .medium_p {
@@ -139,8 +137,8 @@ body {
 }
 /*jumbotron*/
 .jumbo {
-  padding-top: 180px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 70px;
   background-image: url("../img/sfondo.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,14 +146,15 @@ body {
 }
 
 .titolo_jumbo {
-  margin-top: 70px;
-  padding-right: 30px;
+  margin-top: 85px;
+  padding-right: 35px;
+  vertical-align: middle;
 }
 
 .testo_jumbo {
   color: #fff;
   margin: 20px 0;
-  padding-right: 50px;
+  padding-right: 0;
 }
 
 .titolo_form {
@@ -166,9 +165,9 @@ body {
 .box_form {
   background-color: #fff;
   border-radius: 5px;
-  margin: auto;
   padding: 25px;
-  margin: 70px 0;
+  margin: 75px 0;
+  margin-left: 40px;
 }
 
 .testo_form {
@@ -237,22 +236,27 @@ body {
 }
 
 /*caselle testo*/
-.caselle {
-  padding: 50px 0;
-}
-
-.caselle_testo {
-  padding: 20px 50px 50px 30px;
+#caselle {
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .lista_centrale {
   list-style: none;
   border-left: 1px solid grey;
   margin: 25px 0;
+  padding-left: 10px;
 }
 
 .lista_centrale li {
   padding: 15px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.box_small {
+  text-align: left;
+  padding-top: 12px;
 }
 
 /*galleria*/
