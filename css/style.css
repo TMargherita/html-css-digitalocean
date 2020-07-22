@@ -15,22 +15,20 @@ body {
 }
 
 .freccia_dx {
-  font-size: 40px;
   color: #031b4e;
+  padding-right: 50px;
 }
 
 .freccia_sx {
-  font-size: 40px;
   color: #5b6987;
 }
 
-.freccia_dx,.freccia_dx {
+.freccia_dx,.freccia_sx {
+  font-size: 40px;
   vertical-align: middle;
   display: inline-block;
 }
-.btn_top {
 
-}
 .btn_galleria {
   display: inline-block;
   width: 10px;
@@ -52,7 +50,7 @@ body {
 
 .titolo_sezione {
   font-size: 36px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .titolo_paragrafi {
@@ -67,7 +65,7 @@ body {
 
 .small_p {
   font-size: 16px;
-  padding-bottom: 10px;
+  padding: 20px 0;
 }
 
 .medium_p {
@@ -97,7 +95,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: : #fff;
+  background-color: #fff;
   height: 80px;
   line-height: 80px;
 }
@@ -260,28 +258,31 @@ body {
 }
 
 /*galleria*/
+#galleria {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
 
 .box_immagine {
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
-  width: 90%;
-  height:300px;
-  margin:auto;
-  background-color: orange;
+  width: 60%;
+  margin: 0px 10% 0px 10%;
 }
-
+.testo_galleria {
+  font-weight: 500;
+}
 .lista_galleria {
   padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .lista_galleria li {
   display: inline-block;
   list-style: none;
   text-align: center;
 }
-.lista_galleria li:first-child {
-  color: #0069ff;
-}
+
  /*caselle testi centrale*/
 .testo_centrale {
   height: 700px;
